@@ -1,5 +1,5 @@
-# Usa una imagen oficial con Java 21
-FROM eclipse-temurin:21-jdk
+# Usa una imagen oficial con Java 17 por que Railway requiere Java 17
+FROM eclipse-temurin:17-jdk
 
 # Establece el directorio de trabajo
 WORKDIR /app
