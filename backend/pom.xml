@@ -157,6 +157,13 @@
 			<version>${wiremock.version}</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Testcontainers para PostgreSQL -->
+		<dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+       </dependency>
 	</dependencies>
 
 	<build>
